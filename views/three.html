@@ -1,28 +1,45 @@
 <html>
     <body>
         <svg width="100%" height="300" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-        <rect width="100%" height="100%" fill="black"/>
-        <polygon points="300,300 440,100 600,300" fill="#A1DD70" />
-        <text x="100" y="100" font-family="timesnewroman" font-size="55" fill="yellow" stroke="black" stroke-width="1"
-            transform="rotate(-5)">
-            SVG Animation
-        </text>
-        <g>
+        xmlns="http://www.w3.org/2000/svg">
+           <rect width="100%" height="100%" fill="blue" />
+           
+           
+           
+           <text x="90" y="120" font-family="timesnewroman" font-size="55" fill="white" stroke="black" stroke-width="1"
+               transform="rotate(0)">
+               Svg Animvation
+           </text>
+           <rect width="30%" height="50%" x="70%" y="70" fill="black"/>
+           <text x="71%"y="100" fill="white" font-family="timesnewroman" >Svg animation has been created </text>
+           <text x="71%"y="120" fill="white" font-family="timesnewroman"> it is an animation of red circle trasversing a square perimetere</text>
+           <g>
             <path fill-opacity="0.1" stroke="lightgray" d="
-                M 440, 100
+                M 50, 220
                 m -50, 0
                 a 50,50 0 1,0 100,0
                 a 50,50 0 1,0 -100,0
             " />
-            <circle r="5" fill="blue">
-                <animateMotion dur="10s" repeatCount="indefinite" path=" M 440, 100
+            ` <circle r="5" fill="white">
+                <animateMotion dur="10s" repeatCount="indefinite" path=" M 50, 220
                     m -50, 0
                     a 50,50 0 1,0 100,0
                     a 50,50 0 1,0 -100,0" />
             </circle>
         </g>
-    </svg>
+        
+            <!-- Cloud body -->
+            <ellipse cx="50" cy="30" rx="30" ry="20" fill="purple" stroke="black" stroke-width="1" />
+            <ellipse cx="80" cy="30" rx="30" ry="20" fill="purple" stroke="black" stroke-width="1" />
+            <ellipse cx="110" cy="30" rx="25" ry="15" fill="purple" stroke="black" stroke-width="1" />
+            <ellipse cx="65" cy="40" rx="30" ry="20" fill="purple" stroke="black" stroke-width="1" />
+            <ellipse cx="95" cy="40" rx="30" ry="20" fill="purple" stroke="black" stroke-width="1" />
+            
+        
+        
+           
+        </svg>
+        
         <nav class="menue">
             <ul>
                 <li>
@@ -37,8 +54,10 @@
             </ul>
         </nav>
         <h1>SVG Animation is easy!</h1>
-        
-        <img src="../resources/page-three.svg" alt="Animation of a red circle traversing a square perimeter">
+        <div class="svg-animation">
+            <img src="../resources/page-three.svg" alt="Svg Animation">
+        </div>
+     
 
       
     
